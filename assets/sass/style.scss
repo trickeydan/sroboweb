@@ -1,0 +1,105 @@
+// Colours
+
+$colour-sr-black: #1b1d1f;
+$colour-sr-blue: #3270ed;
+$colour-sr-grey: #f5f3f4;
+$colour-sr-orange: #de6400;
+$colour-sr-white: #ffffff;
+
+// Fonts
+
+$font-sr: 'Open Sans';
+$font-sr-header: 'Open Sans Condensed';
+$font-sr-logo: 'Quicksand';
+$font-sr-title: 'Oswald';
+
+// General Styling
+
+section {
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-sr-header;
+}
+
+p {
+    font-family: $font-sr;
+}
+
+a {
+    color: $colour-sr-orange;
+
+    &:hover {
+        color: $colour-sr-blue;
+    }
+}
+
+article {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.btn {
+
+    border-radius: 0;
+
+    .btn-primary {
+        background-color: $colour-sr-blue;
+    }
+}
+
+// Specific Components: Navbar
+
+.sr-nav {
+    background-color: $colour-sr-blue;
+    
+    .navbar-brand {
+        font-family: $font-sr-logo;
+        font-weight:bolder;
+        font-size:medium;
+
+        img {
+            margin-right:5px;
+            padding-bottom:2px;
+        }
+    }
+
+    .navbar-nav {
+        font-family: $font-sr-header;
+        font-size:large;
+        font-weight:bolder;
+    }
+}
+
+// Specific Components: Footer
+
+footer {
+    background-color: $colour-sr-black;
+    color: $colour-sr-grey;
+
+    .sr-footer {
+        margin-right:0px;
+        padding:20px 0px 10px 80px;
+        
+
+        .sitemap {
+            list-style:none;
+            margin-left:-5px;
+            font-family: $font-sr;
+            padding-left:8px;
+
+            a {
+                color: $colour-sr-grey;
+            }
+        }
+    }
+
+    .sr-copyright {
+        margin-right:0;
+        padding:0px 0px 20px 80px;
+    }
+}
+
+
