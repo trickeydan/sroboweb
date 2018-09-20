@@ -75,6 +75,18 @@ article {
     }
 }
 
+// Specific Components: Carousel
+
+.sr-carousel {
+    margin-bottom: 10px;
+
+    .sr-carousel-caption {
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 50%;
+    }
+}
+
 // Specific Components: Footer
 
 footer {
