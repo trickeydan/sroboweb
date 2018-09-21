@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+  {{ if not .Params.showtitle }}
+    <h1>{{ .Title }}</h1>
+  {{ end }}
+  {{ .Content }}
+</div>
+
+{{ partial "footer.html" . }}
