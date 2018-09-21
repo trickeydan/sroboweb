@@ -1,0 +1,12 @@
+name = "Student Robotics"
+license = "MIT"
+licenselink = "https://github.com/trickeydan/sroboweb/blob/master/LICENSE"
+description = "Student Robotics Website 2019"
+homepage = "https://studentrobotics.org/"
+tags = []
+features = []
+min_version = "0.47"
+
+[author]
+  name = "Dan Trickey"
+  homepage = "https://trickey.io"
