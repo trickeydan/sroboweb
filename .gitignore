@@ -1,2 +1,4 @@
-assets/css
-assets/.sass-cache
+### Hugo ###
+hugo*
+/public/
+/resources/_gen
