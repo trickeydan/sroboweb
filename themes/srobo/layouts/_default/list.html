@@ -1,0 +1,11 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+  {{ if .Content }}
+    {{ partial "page.html" . }}
+  {{ else }}
+    {{ partial "list.html" . }}
+  {{ end }}
+{{ end }}
